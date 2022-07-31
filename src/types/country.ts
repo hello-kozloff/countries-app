@@ -15,4 +15,7 @@ export interface CountryObject {
   cca2: string
   population: string
   area: string
+  languages: {
+    [name: string]: string
+  }
 }
