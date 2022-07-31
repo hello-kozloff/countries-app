@@ -17,8 +17,6 @@ export const Country = () => {
       .finally(() => setLoading(false))
   }, [route.params.country])
 
-  console.log(country)
-
   return (
     <Container>
       {loading && 'Loading country...'}
