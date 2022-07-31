@@ -21,6 +21,7 @@ module.exports = {
   plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
+    'react/display-name': 'off'
   },
   settings: {
     'import/resolver': {

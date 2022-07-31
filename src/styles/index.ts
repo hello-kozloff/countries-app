@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 import 'reset-css'
+import { transparentize } from 'polished'
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
@@ -8,6 +9,8 @@ export default createGlobalStyle`
     --color: #000000;
     --background-color: #F7F6F9;
     --plate-color: #ffffff;
+    --border-color: ${transparentize(0.8, '#000000')};
+    --accent-color: '#F7F6F9';
   }
 
   body {

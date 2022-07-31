@@ -1,10 +1,13 @@
 import * as React from 'react'
 import * as Styled from './styled'
+import { Container } from 'components/Container'
 
 export const Header = () => {
   return (
     <Styled.Header>
-      <Styled.ProjectName>List of countries</Styled.ProjectName>
+      <Container>
+        <Styled.ProjectName href="/">Countries app</Styled.ProjectName>
+      </Container>
     </Styled.Header>
   )
 }
