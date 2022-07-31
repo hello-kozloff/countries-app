@@ -1,11 +1,11 @@
 import { Route } from 'router5'
 
 export const Countries: Route = {
-  name: 'countries',
+  name: 'Countries',
   path: '/',
 }
 
 export const Country: Route = {
-  name: 'country',
+  name: 'Country',
   path: '/:country',
 }

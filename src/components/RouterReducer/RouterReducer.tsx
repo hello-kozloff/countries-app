@@ -1,16 +1,17 @@
 import * as React from 'react'
-import { useRoute } from 'react-router5'
 import * as routes from 'router/routes'
+import * as pages from 'pages'
+import { useRoute } from 'react-router5'
 
 export const RouterReducer = () => {
   const { route } = useRoute()
 
   switch (route.name) {
     case routes.Countries.name:
-      return <h1>Welcome to countries page</h1>
+      return <pages.Countries />
     case routes.Country.name:
-      return <h1>Welcome to country detail page</h1>
+      return <pages.Country />
     default:
-      return <h1>Not found content</h1>
+      return <React.Fragment />
   }
 }
