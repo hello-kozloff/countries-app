@@ -7,10 +7,10 @@ export const Card = ({ flag, name, subregion }: CardProps) => {
     <Styled.Card>
       <Styled.Content>
         <Styled.Flag>{flag}</Styled.Flag>
-        <Styled.Name>{name.official}</Styled.Name>
+        <Styled.Name>{name.common}</Styled.Name>
         <Styled.SubRegion>{subregion}</Styled.SubRegion>
       </Styled.Content>
-      <Styled.More href={`/${name.official}`}>More info</Styled.More>
+      <Styled.More href={`/${name.common}`}>More info</Styled.More>
     </Styled.Card>
   )
 }
