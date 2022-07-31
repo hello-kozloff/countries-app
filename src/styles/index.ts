@@ -7,6 +7,7 @@ export default createGlobalStyle`
   :root {
     --color: #000000;
     --background-color: #F7F6F9;
+    --plate-color: #ffffff;
   }
 
   body {
