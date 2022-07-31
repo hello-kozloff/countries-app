@@ -25,5 +25,10 @@ module.exports = {
         "prettier"
     ],
     "rules": {
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
     }
 }
