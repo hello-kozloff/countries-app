@@ -9,7 +9,8 @@
     "react-scripts": "5.0.1",
     "router5": "^8.0.1",
     "router5-plugin-browser": "^8.0.1",
-    "router5-plugin-logger": "^8.0.1"
+    "router5-plugin-logger": "^8.0.1",
+    "router5-plugin-persistent-params": "^8.0.1"
   },
   "devDependencies": {
     "@types/node": "^16.11.47",
