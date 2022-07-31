@@ -3,6 +3,8 @@ export interface CountryName {
   official: string
 }
 
+export type CountryLocation = [number, number]
+
 export interface CountryObject {
   flag: string
   name: CountryName & {
@@ -17,5 +19,8 @@ export interface CountryObject {
   area: string
   languages: {
     [name: string]: string
+  }
+  capitalInfo: {
+    latlng: CountryLocation
   }
 }
