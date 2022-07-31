@@ -1,5 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
 import 'reset-css'
+import '@arcgis/core/assets/esri/themes/light/main.css'
+import { createGlobalStyle } from 'styled-components'
 import { transparentize } from 'polished'
 
 export default createGlobalStyle`
