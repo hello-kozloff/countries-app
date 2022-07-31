@@ -10,5 +10,9 @@ export interface CountryObject {
       [key: string]: CountryName
     }
   }
+  region: string
   subregion: string
+  cca2: string
+  population: string
+  area: string
 }
