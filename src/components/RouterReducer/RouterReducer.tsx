@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useRoute } from 'react-router5'
-import * as routes from '../../router/routes'
+import * as routes from 'router/routes'
 
 export const RouterReducer = () => {
   const { route } = useRoute()

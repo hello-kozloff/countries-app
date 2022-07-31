@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { RouterProvider } from 'react-router5'
-import Router from '../../router'
-import { RouterReducer } from '../RouterReducer'
+import { RouterReducer } from 'components/RouterReducer'
+import Router from 'router'
 
 export const App = () => {
   return (
