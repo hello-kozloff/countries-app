@@ -4,3 +4,8 @@ export const Countries: Route = {
   name: 'countries',
   path: '/',
 }
+
+export const Country: Route = {
+  name: 'country',
+  path: '/:country',
+}
